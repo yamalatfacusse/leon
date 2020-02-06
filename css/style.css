@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	color:#333e50;
+	font-weight: 300;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	background-color: #333e50 !important;
+}
+.header-area.sticky .navbar-light{
+	background-color: #fff;
+}
+
+#hero{
+    background-image: url("../img/header-background.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 0;
+    color: #fff;
+	background-attachment: fixed;
+}
+#hero h1{
+    color: #fff;
+    font-size:55px;
+    font-weight: 400;
+	margin-top: 12%;
+}
+#hero p{
+    font-size: 22px;
+}
+.btn-verde{
+    background-color: #27c79a;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    padding: 10px 40px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+.btn-verde:hover{
+    background-color: #22AC86;
+    color: #fff;
+}
+
+
+.section{
+	padding: 80px 0;
+	}
+
+.title{
+	font-size: 44px;
+	color: #333e50;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.subtitle{
+	font-size: 24px;
+	color: #333e50;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.text{
+	font-size: 17px;
+	color: #333e50;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+#features{
+	background-color: #eee;	
+}
+
+.info i{
+	color:#27c79a;
+	font-size: 45px;
+}
+
+.info h4{
+	color: #333e50;
+	font-size: 22px;
+	font-weight: 400
+}
+
+.info p{
+	font-size: 16px;
+	
+}
+
+.info:first-child {
+	margin-top:40px; 
+}
+
+
+
+#choose .title{
+	text-align: left;
+	margin-top: 200px;
+}
+
+#choose .btn-verde{
+	text-align: left;
+}
+
+#choose .text{
+	text-align: left;
+}
+
+.fondo {
+	background-color: #333e50;
+padding-top: 10% ;
+padding-left: 5%;
+	padding-bottom: 10%;
+}
+
+.blanco{
+padding-left: 10%;
+	padding-right: 5%;
+	}
+	
+	.verde {
+	background-color: #27c79a;
+padding-top: 10% ;
+padding-left: 5%;
+	padding-bottom: 10%;
+}
+
+.btn-negro{
+    background-color: #333e50;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    padding: 8px 30px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+
+
+.blancos{
+	padding-top: 10%;
+	padding-left: 8%;
+	padding-right: 5%;
+	}
+
+.btn-blancos{
+	color:#000000;
+	font-size: 16px;
+    border: 0;
+    padding: 8px 30px;
+    font-weight: 300;
+    border-radius: 10px;
+
+}
+
+.blancos .text{
+	padding-top: 2%;
+	text-align: left;
+}
+#screenshots{
+	
+	background-color: #eee;
+}
+.app-carousel {
+    padding: 0 6%;
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #333e50 !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #333e50;
+    
+}
+.price{
+	border:2px solid #e5e5e5;
+	background-color: #fff;
+	border-radius: 4px;
+	
+}
+.price h3{
+	font-size: 26px;
+	font-weight: 400;
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+	text-transform: uppercase;
+	padding: 15px 0;
+	
+}
+
+.price h4{
+	font-size: 76px;
+	font-weight: 300;
+	text-align: center;
+	border-bottom: 1px solid #e5e5e5;
+	text-transform: uppercase;
+	padding: 5px 0;
+	
+}
+.price .info{
+	padding: 10px;
+	text-align: center;
+	
+}
+.price .info ul{
+	list-style: none;
+	padding: 0;
+	font-size: 16px;
+	
+}
+.price .btn-light{
+	background-color: #e5e5e5;
+	border: 0;
+	border-radius: 0;
+	padding: 10px 0;
+	font-weight: 300;
+	font-size: 18px;
+	
+}
+
+.price:hover, 
+.price:hover h3,
+.price:hover h4{
+	border-color: #22ac86;
+	
+}
+
+.price:hover .btn-light{
+	background-color: #22ac86;
+	color: #fff;
+}
+.price li::before{
+	content:'\f00c';
+	font-family: 'Font Awesome 5 Free';
+	color: #22ac86;
+	display:inline;
+	font-weight: 600;
+	padding-right: 5px;
+	
+}
+
+footer{
+	background-color: #333e50;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0;
+}
+
+
+
+
